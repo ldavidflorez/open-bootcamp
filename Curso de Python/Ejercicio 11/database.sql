@@ -1,0 +1,5 @@
+CREATE TABLE Alumnos(
+    Id INT PRIMARY KEY NOT NULL,
+    Nombre CHAR(50) NOT NULL,
+    Apellido CHAR(50) NOT NULL
+);
