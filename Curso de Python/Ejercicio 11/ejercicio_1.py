@@ -28,6 +28,7 @@ conn = sqlite3.connect("./Database.db")
 
 cursor = conn.execute(
     "SELECT Id, Nombre, Apellido from Alumnos WHERE Nombre = 'Nom5'")
+
 for row in cursor:
     print("Id: ", row[0])
     print("Nombre: ", row[1])
